@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proceso compra</title>
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="javaScript/alertifyjs/css/themes/default.css">
+<link rel="stylesheet" type="text/css" href="javaScript/alertifyjs/css/alertify.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/65aa94981d.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="css/style_index.css">
+<link rel="stylesheet" href="css/footer.css">
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="img/iconlogo.png" alt="" width="200"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="buscar">
+          <input type="text" placeholder="Busca tu producto aquí" required>
+          <div class="btn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+      
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+           <ul class="navbar-nav mr-auto">
+            <li title="Contact Us">
+                <span class="usefulLinksIcons">
+                    <i class="fa-solid fa-user-check"></i>
+                </span>
+                <a>&nbsp;Usuario ingresado</a>
+                
+              </li>
+
+           
+            
+           
+          </ul>
+          </form>
+        </div>
+      </nav>
+
+
+<div  class= "progress d-flex justify-content-center">
+<ul id="pro">
+  <h1>Estado del Producto</h1>
+  <br>
+
+
+<li>
+
+ <img src="img/check_product.png"><br>
+ <i> <img src="img/check (1).png"></i>
+ <p>ESTADO DEL PRODUCTO</p>
+
+</li>
+
+<li>
+
+  <img src="img/payment_icon.png"><br>
+  <i><img src="img/check (1).png"></i>
+  <p>METODO DE PAGO</p>
+  
+</li>
+
+
+<li>
+
+  <img src="img/truck_envio (1).png"><br>
+  <i><img src="img/refresh (1).png" ></i>
+  <p>EN CAMINO</p>
+    
+</li>
+
+<li>
+
+  <img src="img/house_icon (1).png"><br>
+  <i><img src="img/wrong (1).png"></i>
+  <p>RECIBIDO</p>
+  
+  </li>
+
+
+
+
+</ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+    <footer>
+        
+        <div class="footer-wrap">
+          <div class="widgetFooter">
+            <h4 class="uppercase">Nuestros links</h4>
+            <ul id="footerUsefulLink">
+              <li title="About US">
+                <span class="usefulLinksIcons">
+                  <i class="far fa-id-card"></i>
+                </span>
+                <a>&nbsp;Sobre nosotros</a>
+              </li>
+              <li title="Our Team">
+                <span class="usefulLinksIcons">
+                  <i class="far fa-handshake"></i>
+                </span>
+                <a>&nbsp;Nuestro equipo</a>
+              </li>
+              <li title="Gallery">
+                <span class="usefulLinksIcons">
+                  <i class="far fa-images"></i>
+                </span>
+                <a>&nbsp;Galeria</a>
+              </li>
+              <li title="Contact Us">
+                <span class="usefulLinksIcons">
+                  <i class="far fa-envelope"></i>
+                </span>
+                <a>&nbsp;Contactanos</a>
+              </li>
+            </ul>
+          </div>
+          <div class="widgetFooter" id="footerLogo">
+          </div>
+          <div class="widgetFooter">
+            <h4 class="uppercase">Nuestras redes sociales</h4>
+            <ul id="footerMediaLinks">
+              <li class="media1" title="Facebook">
+                <span class="mediaLinksIcons fb">
+                  <i class="fab fa-facebook-square"></i>
+                </span>
+                <a class="fb">&nbsp;facebook</a>
+              </li>
+              <li class="media2" title="Twitter">
+                <span class="mediaLinksIcons twit">
+                  <i class="fab fa-twitter-square"></i>
+                </span>
+                <a class="twit">&nbsp;Twitter</a>
+              </li>
+              <li class="media3"  title="Instagram">
+                <span class="mediaLinksIcons insta">
+                  <i class="fab fa-instagram"></i>
+                </span>
+                <a class="insta">&nbsp;instagram</a>
+              </li>
+              <li class="media4" title="Github">
+                <span class="mediaLinksIcons git">
+                  <i class="fab fa-github-alt"></i>
+                </span>
+                <a class="git">&nbsp;Github</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footerCopy">
+          <div class="inb">
+            <p>Copyrights<sup>&copy;</sup> 2022. Equipo de desarrollo Anonimo  <i class="fas fa-heart" style="color: red;"></i> Por Duoc & Equipo</p>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
